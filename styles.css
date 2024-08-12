@@ -1,0 +1,110 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8f0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #009688;
+    margin-bottom: 20px;
+}
+
+/* Estilos del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #009688;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+button {
+    background-color: #009688;
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #00796b;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #004d40;
+}
+
+/* Estilos específicos para la página de confirmación */
+#newOrderButton {
+    background-color: #009688;
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#newOrderButton:hover {
+    background-color: #00796b;
+    transform: scale(1.05);
+}
+
+#newOrderButton:active {
+    background-color: #004d40;
+}
+
+/* Estilos para el botón adicional en data-entry.html */
+#takeAnotherOrderButton {
+    background-color: #ff5722; /* Un color diferente para distinguirlo */
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 20px;
+}
+
+#takeAnotherOrderButton:hover {
+    background-color: #e64a19;
+    transform: scale(1.05);
+}
+
+#takeAnotherOrderButton:active {
+    background-color: #bf360c;
+}
